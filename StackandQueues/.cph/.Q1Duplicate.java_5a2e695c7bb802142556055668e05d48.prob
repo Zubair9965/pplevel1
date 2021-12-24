@@ -1,0 +1,1 @@
+{"name":"Local: Q1Duplicate","url":"d:\\PP level1\\StackandQueues\\Q1Duplicate.java","tests":[{"id":1640374835857,"input":"(a + b) + ((c + d))","output":"true"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\PP level1\\StackandQueues\\Q1Duplicate.java","group":"local","local":true}
