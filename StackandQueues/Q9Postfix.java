@@ -1,14 +1,22 @@
-package pplevel1.StackandQueues;
-import java.io.*;
 import java.util.*;
 
 public class Q9Postfix{
-  
+    public static class Person{
+        int age;
+        String name;
+        void saysHi(){
+            System.out.println(name + "["+ age +"]"says hi");
+        }
+    }
+    public static void main(String[]args){
+        Person p1=new Person();
+        p1.age=10;
+        p1.name="A";
+        p1.saysHi();
 
-public static void main(String[] args) throws Exception {
-    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    String exp = br.readLine();
-
-    // code
- }
+        Person p2=new Person();
+        p2.age=20;
+        p2.name="B";
+        p2.saysHi();
+    }
 }
